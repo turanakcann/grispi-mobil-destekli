@@ -2,7 +2,9 @@
 import nltk as nltk
 import pandas as pd
 import json
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
+nltk.download('vader_lexicon')
 def fileRead(file_path): #Dosya Okuma Fonksiyonu Tanımlandı
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
@@ -57,7 +59,23 @@ if df is not None:
         else:
             return "Diğer"
 
-    unanswered_questions.loc[:,'intent'] = unanswered_questions['content.text'].apply(classifyIntent)
-    unanswered_questions.loc[:,'category'] = unanswered_questions['content.text'].apply(classifyCategory)
+sent_analysis = SentimentIntensityAnalyzer()
+def get_sentiment(text):
+    if pd.isna(text) or not isinstance(text, str):
+            return "Nötr"
+    sentiment_score = sent_analysis.polarity_scores(text)
+    compound_score = sentiment_score['compound']
+    if compound_score >= 0.05:
+        return "Pozitif"
+    elif compound_score <= -0.05:
+        return "Negatif"
+    else:
+        return "Nötr"
+    
+unanswered_questions.loc[:,'intent'] = unanswered_questions['content.text'].apply(classifyIntent)
+unanswered_questions.loc[:,'category'] = unanswered_questions['content.text'].apply(classifyCategory)
+unanswered_questions.loc[:, 'sentiment'] = unanswered_questions['content.text'].apply(get_sentiment)
 
-    print(unanswered_questions[['content.text', 'intent', 'category', 'created_at']])
+print(unanswered_questions[['content.text', 'intent', 'category', 'sentiment','created_at']])
+
+unanswered_questions.to_csv('classified_questions_with_sentiment.csv', index=False, encoding='utf-8')

@@ -1,0 +1,3 @@
+id,sender_id,type,is_internal,created_at,content.text,content.options,content.action_id,content,conversation_id,unanswered,intent,category,sentiment
+9f2b0f84-1867-4ec4-a1fa-6b7139ac5369,,TEXT,False,2025-06-16T11:22:07,Merhabe Dogum Günü,,,,9f2b0f51-1720-4fd4-ac37-3b845bbc9f20,True,Diğer,Diğer,Nötr
+9f541f87-47df-439b-96fe-c2bdbf68e079,,TEXT,False,2025-07-06T21:15:50,Kına ve düğün ikisi birarada n,,,,9f541f3e-abf3-4189-bc48-a4c7bfebc841,True,Diğer,Düğün,Nötr
