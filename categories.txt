@@ -1,0 +1,59 @@
+--Düğün Mekanları
+-Düğün Salonları
+-Kır Düğünü Mekanları
+-Davet Alanları
+-Otelde Düğün
+-Tarihi Düğün Mekanları
+-Havuz Başı Düğün Mekanları
+-Teknede Düğün ve Davet
+-Sosyal Tesisler
+-Luxury Wedding
+-Nikah Salonu ve Evlendirme Dairesi
+-Sünnet Düğünü Mekanları
+-Tüm Düğün Mekanları
+
+--Diğer Davet Mekanları
+-Kına Gecesi Mekanları
+-Gelin Hamamı Mekanları
+-Söz, İsteme, Nişan Mekanları, Davet Evleri
+-Nikah Sonrası Yemek
+-Mezuniyet ve Balo Mekanları
+-After Party İçin Eğlence Mekanları
+-Doğum Günü Party Evleri ve Baby Shower Mekanları
+-Evlilik Teklifi Mekanları
+-Konferans ve Toplantı Salonları
+-Tüm Diğer Davet Mekanları
+
+--Düğün Firmaları
+-Dış Çekim ve Düğün Fotoğrafçıları
+-Gelin Saçı ve Makyajı
+-Gelinlik ve Moda Evleri
+-Gelin Arabası
+-Düğün Orkestrası, DJ ve Müzik Grupları
+-Düğün Dans Kursu
+-Düğün Davetiyesi
+-Nikah Şekeri ve Hediyelik
+-Düğün Yemeği İçin Catering Firmaları
+-Düğün Pastası Firmaları
+-Gelin Çiçeği
+-Damatlık Modelleri
+-Gelin Ayakkabısı ve Aksesuarları
+-Nişanlık ve Abiye Modelleri
+-Alyans ve Tektaş Yüzük
+-Tüm Düğün Firmaları
+
+--Organizasyon Firmaları
+-Kına Gecesi Organizasyonu
+-Nişan Organizasyonu Firmaları
+-Düğün Organizasyonu Firmaları
+-Doğum Günü ve Baby Shower Organizasyonu Firmaları
+-Mezuniyet ve Balo Organizasyonu Firmaları
+-Evlilik Teklifi Organizasyonu Firmaları
+-Sünnet Organizasyonu Firmaları
+-Tüm Organizasyon Firmaları
+
+--Balayı
+-Balayı Otelleri
+-Balayı Evleri
+-Balayı Gemi Turları
+-Tüm Balayı
